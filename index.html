@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- google fonts -->
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Barlow+Semi+Condensed:ital,wght@0,500;0,600;1,500;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<!-- css file -->
+	<link rel="stylesheet" href="css/styles.css">
+	<!-- bootsrtap files -->
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+	<div class="container-fluid bg-info vh-100 d-flex align-items-center justify-content-center">
+		<div class="quote-card  bg-dark d-flex flex-column justify-content-center align-items-center">
+      <div class="header d-flex align-content-center justify-content-center mt-4">
+				<h2 class="text-capitalize  text-white fw-bold">quote of the day</h2>
+			</div>
+			<div class="quote-area d-flex flex-column align-items-center justify-content-center">
+        <p id="newQuote" class=" mt-4 pt-3 fs-3 text-white">Click the button to generate a quote</p>
+				<div class="author d-flex justify-content-end  w-100  my-3 ">
+					<p class="author text-center text-white fw-medium" id="author"></p>
+				</div>
+			</div>
+			<div class="line"></div>
+			<div class="button-wrap my-3 d-flex justify-content-between  w-100 ">
+				<div class="social-icons ms-3">
+					<button class="btn btn-primary rounded-circle social-ico mx-1"><i class="fa-solid fa-share text-white fa-1 "></i></button>
+					<button class="btn btn-primary rounded-circle social-ico mx-1"><i class="fa-solid fa-heart text-white fa-1"></i></button>
+				</div>
+				<button class="rounded-pill get-quote-btn me-3 btn btn-primary text-capitalize" onclick="generateQuote()">get quote</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- js bootstrap file -->
+	 <script src="js/bootstrap.bundle.min.js"></script>
+	 <!-- main js file -->
+	<script src="js/main.js"></script>
+</body>
+</html>
