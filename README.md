@@ -4,7 +4,7 @@ A simple and responsive **Quote Generator** web app built using **HTML, CSS, and
 
 ## 🚀 Live Demo
 
-[View the live project here]() 
+[View the live project here](https://maryammagdy123.github.io/Quote-Generator/) 
 
 ## 🛠️ Technologies Used
 
