@@ -29,7 +29,7 @@ A simple and responsive **Quote Generator** web app built using **HTML, CSS, and
 - `index.html`: Main HTML structure.
 - `css/design.css`: Custom styles for layout and elements.
 - `js/main.js`: JavaScript logic to handle quote generation.
-- `assets/` *(optional)*: Folder for any future icons, fonts, or media.
+
 
 ## 📬 Contact
 
